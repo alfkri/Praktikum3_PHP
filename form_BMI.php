@@ -120,8 +120,8 @@
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><b>Nama : <?= $nama ?></b></li>
                             <li class="list-group-item"><b>Jenis Kelamin: <?= $jk ?></b></li>
-                            <li class="list-group-item"><b>Berat Badan: <?= $bb ?></b></li>
-                            <li class="list-group-item"><b>Tinggi Badan: <?= $tb ?></b></li>
+                            <li class="list-group-item"><b>Berat Badan (KG): <?= $bb ?></b></li>
+                            <li class="list-group-item"><b>Tinggi Badan (CM): <?= $tb ?></b></li>
                             <li class="list-group-item"><b>Umur : <?= $umur?></b></li>
                             <li class="list-group-item"><b>BMI : <?php echo number_format($HB,1); ?></b></li>
                             <li class="list-group-item"><b>Hasil: <?php echo $status; ?></b></li>
