@@ -119,6 +119,7 @@
                         <div class="card-header bg-secondary text-white text-center" style="font-weight: bold; font-size: 20px;">Hasil Evaluasi BMI</div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><b>Nama : <?= $nama ?></b></li>
+                            <li class="list-group-item"><b>Jenis Kelamin: <?= $jk ?></b></li>
                             <li class="list-group-item"><b>Berat Badan: <?= $bb ?></b></li>
                             <li class="list-group-item"><b>Tinggi Badan: <?= $tb ?></b></li>
                             <li class="list-group-item"><b>Umur : <?= $umur?></b></li>
